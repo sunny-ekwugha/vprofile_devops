@@ -5,6 +5,8 @@
 - MySQL 8
 
 # Technologies 
+- Alfken Eng
+- Glorified Family
 - JAKARTA
 - Spring MVC
 - Spring Security
