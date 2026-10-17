@@ -57,6 +57,25 @@ JDK 11 and Maven 3 are listed as project prerequisites. Before building or deplo
 
 Use the deployment instructions and configuration files included in the repository as the source of truth for the environment-specific setup.
 
+### Build the Application
+
+From the repository root, verify that Java and Maven are installed:
+
+```bash
+java -version
+mvn -version
+```
+
+Build the application using Maven:
+
+```bash
+mvn clean package
+```
+
+Review the output to identify the generated WAR file, if the project is configured to package as a WAR. Deploy that artifact to a compatible Tomcat server using the project's configuration and deployment instructions.
+
+**Note:** The build and deployment commands may need adjustment depending on the project's Maven configuration, Java version, and Tomcat version.
+
 ## Notes
 
 - Keep database credentials and other secrets out of version control.
